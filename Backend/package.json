@@ -1,0 +1,27 @@
+{
+  "name": "wtproject",
+  "version": "1.0.0",
+  "main": "contact.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sujathatappetla/wtproject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sujathatappetla/wtproject/issues"
+  },
+  "homepage": "https://github.com/sujathatappetla/wtproject#readme",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "mysql": "^2.18.1"
+  }
+}

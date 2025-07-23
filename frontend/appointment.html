@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+        crossorigin="anonymous" />
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+          integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+          crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+          integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+          crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+          integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+          crossorigin="anonymous"></script>
+  <style>
+    .button {
+      border-radius: 20px;
+    }
+    .formcolor {
+      background-color: #dcebf5;
+    }
+  </style>
+</head>
+<body>
+  <!-- Appointment Start -->
+  <div class="container-fluid mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 mb-4">
+          <div class="mb-4">
+            <h5 class="text-primary text-uppercase border-bottom border-5">Appointment</h5>
+            <h3>Make An Appointment For Your Family</h3>
+          </div>
+          <p class="mb-5">
+            Eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing kasd ipsum.
+            Dolor ea et dolore et at sea ea at dolor, justo ipsum duo rebum sea invidunt voluptua.
+            Eos vero eos vero ea et dolore eirmod et. Dolores diam duo invidunt lorem.
+            Elitr ut dolores magna sit. Sea dolore sanctus sed et. Takimata takimata sanctus sed.
+          </p>
+          <button class="btn btn-primary button">Find Doctor</button>
+          <button class="btn btn-outline-primary button">Read More</button>
+        </div>
+        <div class="col-lg-6 shadow formcolor p-5">
+          <div class="text-center">
+            <h1 class="mb-5">Book An Appointment</h1>
+           <!-- Only the form part is shown below -->
+<form action='/insert' method="post">
+  <div class="row">
+    <div class="col-12 col-md-6 mb-4 w-100">
+      <select name="selectfield" class="form-control bg-white border-0 shadow" required>
+        <option value="" disabled selected>Select Doctor</option>
+        <option value="cardiologist">Cardiologist</option>
+        <option value="Dentist">Dentist</option>
+        <option value="Dermatologist">Dermatologist</option>
+      </select>
+    </div>
+    <div class="col-12 col-md-6 mb-4">
+      <input type="text" name="name" class="form-control shadow bg-white border-0 w-100" placeholder="Your Name" required>
+    </div>
+    <div class="col-12 col-md-6 mb-4 w-100">
+      <input type="email" name="email" class="form-control shadow bg-white border-0 w-100" placeholder="Your Email" required>
+    </div>
+    <div class="col-12 col-md-6 mb-4 w-100">
+      <input type="date" name="date" class="form-control shadow bg-white border-0 w-100" required>
+    </div>
+    <div class="col-12">
+      <button class="btn btn-primary w-100 shadow" type="submit">Make An Appointment</button>
+    </div>
+  </div>
+</form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

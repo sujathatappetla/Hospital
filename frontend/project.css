@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.normalimage {
+height: 100%;
+width: 100%;
+}
+
+#navItem1 {
+color: #70706f;
+font-family: "Roboto";
+}
+
+
+
+.logo {
+width: 70px;
+height: 80px;
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+color: var(--primary);
+}
+
+.card {
+border-radius: 50%;
+background-color: #dcebf5;
+}
+
+@media (min-width: 992px) {
+.navbar-light .navbar-nav .nav-link::before {
+position: absolute;
+content: "";
+width: 0;
+height: 5px;
+
+
+
+bottom: 0;
+left: 50%;
+background: var(--primary);
+transition: .5s;
+}
+
+@media (max-width: 991.98px) {
+.navbar-light .navbar-nav .nav-link {
+margin-left: 0;
+padding: 10px 0;
+}
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover::before,
+.navbar-light .navbar-nav .nav-link.active::before {
+width: 100%;
+left: 0;
+}
+}
+
+#navItem2 {
+color: #70706f;
+
+
+
+font-family: "Roboto";
+}
+
+#navItem3 {
+color: #70706f;
+font-family: "Roboto";
+}
+
+#navItem4 {
+color: #70706f;
+font-family: "Roboto";
+}
+
+#navItem5 {
+color: #70706f;
+font-family: "Roboto";
+}
+
+#navItem6 {
+color: #70706f;
+font-family: "Roboto";
+}
+
+
+
+@media (min-width: 992px) {
+.navbar-light .navbar-nav .nav-link::before {
+position: absolute;
+content: "";
+width: 0;
+height: 5px;
+bottom: 0;
+left: 50%;
+background: var(--primary);
+transition: .5s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover::before,
+.navbar-light .navbar-nav .nav-link.active::before {
+width: 100%;
+left: 0;
+}
+}
+
+@media (min-width: 992px) {
+.navbar-light .navbar-nav .nav-link::before {
+position: absolute;
+
+content: "";
+width: 0;
+height: 5px;
+bottom: 0;
+left: 50%;
+background: var(--primary);
+transition: .5s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover::before,
+.navbar-light .navbar-nav .nav-link.active::before {
+width: 100%;
+left: 0;
+}
+}
+
+@media (min-width: 992px) {
+.navbar-light .navbar-nav .nav-link::before {
+position: absolute;
+content: "";
+width: 0;
+height: 5px;
+
+
+
+bottom: 0;
+left: 50%;
+background: var(--primary);
+transition: .5s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover::before,
+.navbar-light .navbar-nav .nav-link.active::before {
+width: 100%;
+left: 0;
+}
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+color: var(--primary);
+}
+
+.navbar-light .navbar-nav .nav-link {
+font-family: 'Jost', sans-serif;
+position: relative;
+margin-left: 30px;
+
+padding: 30px 0;
+font-size: 18px;
+font-weight: 700;
+color: var(--dark);
+outline: none;
+transition: .5s;
+}
+
+@media (max-width: 991.98px) {
+.navbar-light .navbar-nav .nav-link {
+margin-left: 0;
+padding: 10px 0;
+}
+
+}
+
+@media (max-width: 991.98px) {
+.navbar-light .navbar-nav .nav-link {
+margin-left: 0;
+padding: 10px 0;
+
+}
+
+}
+
+@media (max-width: 991.98px) {
+.navbar-light .navbar-nav .nav-link {
+margin-left: 0;
+padding: 10px 0;
+}
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+font-family: 'Jost', sans-serif;
+position: relative;
+margin-left: 30px;
+padding: 30px 0;
+font-size: 18px;
+font-weight: 700;
+color: var(--dark);
+outline: none;
+transition: .5s;
+}
+
+.card2{
+height:200vh;
+width:100vw;
+}
+.homecard {
+background-image:
+url("https://img.freepik.com/premium-photo/blur-background-nurses-preparing-get-blood-from-donors-blood-donations-center_37274-49.jpg?size=626&ext=jpg&ga=GA1.1.1530101003.1666975936&semt=ais");
+background-size: cover;
+
+}
+
+.homebutton {
+border-radius: 20px;
+}
+
+.aboutcircle {
+
+background-color: #dcebf5;
+}
+
+.aboutimage {
+
+
+height: 100%;
+width: 100%;
+border-radius: 20px;
+}
+
+.servicecard {
+background-color: #dcebf5;
+border-radius: 20px;
+}
+
+.serviceicon {
+background-color: #2168e4;
+border-radius: 50%;
+transform: rotate(-15deg);
+height: 100px;
+width: 150px;
+}
+
+.icon {
+transform: rotate(15deg);
+}
+
+
+
+.button {
+border-radius: 20px;
+}
+
+.formcolor {
+background-color: #dcebf5;
+
+}
